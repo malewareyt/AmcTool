@@ -1,0 +1,759 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700');
+@media only screen and (min-width: 768px) {
+    /* For desktop styles */
+    .iconsList {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .fa-solid,
+    .fa-brands {
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        font-size: larger;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 40px rgba(255, 2, 2, 1), 1px 1px 40px rgba(255, 2, 2, 1);
+        background-color: none;
+        z-index: inherit;
+    }
+    .bestDownload {
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        box-shadow: -3px 1px 82px 21px rgba(255, 0, 0, 0.94);
+        -webkit-box-shadow: -3px 1px 82px 21px rgba(255, 0, 0, 0.94);
+        -moz-box-shadow: -3px 1px 82px 21px rgba(255, 0, 0, 0.94);
+    }
+    .headerImage {
+        display: none;
+    }
+    .headerImageDesktop {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        rotate: 20deg;
+    }
+    .headerButton {
+        color: white;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: none;
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        font-family: 'Poppins', sans-serif;
+        font-size: 1vh;
+        font-size: 3vw;
+        border-radius: 20px;
+        box-shadow: 1px 1px 50px rgba(255, 2, 2, 0.9);
+        z-index: 2;
+        margin-bottom: 50px;
+        font-weight: 500;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    .listItems {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-left: 0%;
+        gap: 80px;
+        z-index: 2;
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .listItem {
+        font-size: 6vh;
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 2px 1px rgb(99, 98, 98);
+        font-weight: 600;
+    }
+    .pirateGrabber {
+        font-family: 'Poppins', sans-serif;
+        font-size: 6vw;
+        font-weight: 600;
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+        height: fit-content;
+        /* gradient text snippet */
+        background-image: linear-gradient(90deg, #ff0000);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* end snippet */
+        background-color: #ff0000;
+        text-shadow: 1px 1px 40px rgba(255, 2, 2, 1);
+        z-index: 1;
+    }
+    .headerContainer {
+        background: none;
+        width: 60%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 0;
+    }
+    .header {
+        width: 0%;
+        overflow: hidden;
+        line-height: 1.3;
+        padding-top: 15px;
+        display: flex;
+        justify-content: space;
+        word-wrap: break-word/* This makes the text go on a new line if needed*/
+        ;
+        height: fit-content;
+    }
+    .welcomeTo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 6vh;
+        font-weight: regular;
+        color: white;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-shadow: 1px 3px 1px rgba(99, 98, 98, 1);
+        padding-left: 10px;
+    }
+    .headerContent {
+        width: 100%;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-size: 2vh;
+        font-size: 2.5vw;
+        z-index: 1;
+        padding-left: 10px;
+        padding-right: 5px;
+        text-shadow: 1px 2px 1px rgb(99, 98, 98);
+    }
+    .emphasis {
+        text-shadow: none;
+    }
+    .builtWithPython {
+        display: flex;
+        color: white;
+        padding: 20px;
+        margin-top: 50px;
+    }
+    .bwpLeft {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .bwpHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .bwpText {
+        font-size: 3vh;
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .bwpRight {
+        display: flex;
+        width: 55%;
+        flex-direction: column;
+        justify-content: flex-end;
+        height: 120%;
+        filter: blur(4px);
+    }
+    .moreThanSoftware {
+        display: flex;
+        color: white;
+        padding: 20px;
+        margin-top: 50px;
+        flex-direction: row;
+    }
+    .mtsLeft {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+    .mtsHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .mtsText {
+        font-size: 3vh;
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .mtsRight {
+        display: flex;
+        width: 55%;
+        flex-direction: column;
+        justify-content: center;
+        height: auto;
+        filter: blur(4px);
+    }
+    /* reusable info styles END @@@@@@@@@@@@@@@@ */
+    .forThePeople {
+        display: flex;
+        color: white;
+        padding: 20px;
+        margin-top: 40px;
+        align-content: flex-end;
+        justify-content: space-between;
+    }
+    .ftpRight {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: center;
+        height: 120%;
+        text-align: right;
+    }
+    .ftpLeft {
+        display: flex;
+        width: 50%;
+        flex-direction: column;
+        justify-content: flex-end;
+        filter: blur(4px);
+        margin-top: 20px;
+        height: 100%;
+    }
+    .ftpHeading {
+        width: auto;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        /* snippet for underline border bottom imitation */
+        text-decoration: underline 4px red;
+        text-underline-offset: 8px;
+        -webkit-text-underline-position: under;
+        text-underline-position: under;
+        -webkit-text-decoration: rgb(255, 0, 0) solid 4px underline;
+    }
+    .ftpText {
+        font-size: 3vh;
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tutorialText {
+        font-size: 5vh;
+        font-size: 3vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tutorial {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .iframe {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+    }
+    .tutorialHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .downloads {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .downloadsHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .downloadsText {
+        font-size: 3vh;
+        font-size: 2vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .downloadsContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .callToAction {
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: inherit;
+        height: auto;
+        width: 100%;
+        justify-content: center;
+    }
+    .ctaContainer {
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        border-radius: 20px;
+        padding: 40px;
+        width: fit-content;
+        margin: 50px;
+    }
+    .ctaText {
+        color: white;
+        font-size: 6.5vh;
+        font-weight: 600;
+        padding: 0;
+    }
+    .ctaButton {
+        color: white;
+        background: none;
+        border: white 2px solid;
+        border-radius: 10px;
+        padding: 10px 10px 10px;
+        margin-top: 10px;
+        font-size: 4vh;
+        font-weight: 600;
+        font-family: 'Poppins';
+        text-shadow: 1px 1px 30px rgb(255, 255, 255, 0.7)
+    }
+    .downloadsContainer {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: max-content;
+    }
+    .downloadsItems {
+        border-radius: 10px;
+        height: fit-content;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+    .slowDownload {
+        background-color: rgb(16, 16, 16);
+        border-radius: 10px;
+        height: 100%;
+        display: flex;
+        width: 20vw;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        box-shadow: 2px 1px 100px rgba(29, 28, 28, 0.9);
+        margin: 20px;
+    }
+    .downloadList {
+        padding-left: none;
+        display: flex;
+        flex-direction: column;
+        text-align: left;
+        justify-content: flex-start;
+    }
+    .downloadListItem {
+        padding-left: none;
+        list-style-type: none;
+        font-size: 3vh;
+    }
+    .downloadTitle {
+        font-size: 7vh;
+        font-size: 4vw;
+        font-weight: 500;
+        padding: 20px;
+        text-align: center;
+        font-weight: 600;
+        text-shadow: 1px 1px 30px rgb(255, 255, 255, 0.7);
+    }
+    .downloadButton {
+        color: white;
+        background: none;
+        border: white 2px solid;
+        border-radius: 10px;
+        margin-top: 30px;
+        font-size: 4vh;
+        font-weight: 600;
+        padding: 10px;
+        font-family: 'Poppins';
+        width: 60%;
+        text-shadow: 1px 1px 30px rgb(255, 255, 255, 0.7);
+        margin-bottom: 20px;
+    }
+}
+
+/* @@@@@@@@@@@@@@@@ MOBILE STYLES @@@@@@@@@@@@@@@@@@@@@ */
+
+@media screen and (max-width: 767px) {
+    /* For mobile styles */
+    .headerContainer {
+        width: auto;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+    .emphasis {
+        text-shadow: none;
+    }
+    .header {
+        width: 50%;
+        overflow: hidden;
+        line-height: 1.3;
+        padding-top: 15px;
+        z-index: 1;
+        word-wrap: break-word/* This makes the text go on a new line if needed*/
+    }
+    .welcomeTo {
+        font-family: 'Poppins', sans-serif;
+        font-size: 5.5vh;
+        font-weight: regular;
+        color: white;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-shadow: 1px 2px 3px rgba(0, 0, 0, 0.8);
+        padding-left: 10px;
+    }
+    .pirateGrabber {
+        font-family: 'Poppins', sans-serif;
+        font-size: 11vw;
+        font-weight: 600;
+        font-style: italic;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: fit-content;
+        /* gradient text snippet */
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        /* end snippet */
+        text-shadow: 1px 1px 50px rgba(255, 2, 2, 0.9);
+        z-index: 1;
+    }
+    .headerContent {
+        width: 100%;
+        color: white;
+        margin: 0;
+        padding: 0;
+        font-size: 2vh;
+        font-size: 5vw;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-right: 5px;
+        text-shadow: 1px 2px 1px rgb(99, 98, 98);
+        z-index: 1;
+    }
+    .headerImage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    /* Start icon display styles, universal lightspeed etc @@@@@@@@@@@@@@*/
+    .iconsList {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .listItems {
+        /* Container for the icon/list duos */
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        padding-left: 0%;
+        flex-direction: column;
+        color: white;
+        text-decoration: none;
+        list-style-type: none;
+    }
+    .listItem {
+        /* The actual icon/list duo*/
+        font-size: 6vh;
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Poppins', sans-serif;
+        text-shadow: 1px 2px 1px rgb(99, 98, 98);
+        font-weight: 600;
+    }
+    .fa-solid,
+    .fa-brands {
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-shadow: 1px 1px 40px rgba(255, 2, 2, 1), 1px 1px 40px rgba(255, 2, 2, 1);
+        background-color: none;
+        z-index: inherit;
+        border-bottom: none !important;
+    }
+    /* end icon display styles @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+    .headerButton {
+        color: white;
+        margin-left: 10px;
+        margin-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        border: none;
+        background-image: linear-gradient(10deg, #ff0000, #ff0048);
+        font-family: 'Poppins', sans-serif;
+        font-size: 5vh;
+        font-size: 5vw;
+        border-radius: 10px;
+        box-shadow: 1px 1px 50px rgba(255, 2, 2, 0.9);
+        z-index: 2;
+        margin-bottom: 50px;
+        font-weight: 500;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    }
+    /* reusable info styles START @@@@@@@@@@@@@@@@ */
+    .builtWithPython {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .bwpLeft {
+        display: flex;
+        flex-direction: column;
+    }
+    .bwpHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .bwpText {
+        font-size: 8vh;
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .moreThanSoftware {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .mtsLeft {
+        display: flex;
+        flex-direction: column;
+    }
+    .mtsHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .mtsText {
+        font-size: 8vh;
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    /* reusable info styles END @@@@@@@@@@@@@@@@ */
+    .forThePeople {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .fa-brands,
+    .fa-solid {
+        text-decoration: none !important;
+        border-bottom: none !important;
+    }
+    .ftpHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        text-decoration: underline 4px red;
+        display: block;
+        text-underline-offset: 8px;
+        -webkit-text-underline-position: under;
+        text-underline-position: under;
+        -webkit-text-decoration: rgb(255, 0, 0) solid 4px underline;
+    }
+    .ftpText {
+        font-size: 8vh;
+        font-size: 6vw;
+        display: block;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: fit-content;
+    }
+    .tutorialText {
+        font-size: 8vh;
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .tutorial {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .iframe {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        border-radius: 10px;
+    }
+    .tutorialHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        border-bottom: #ff0000 4px solid;
+    }
+    .downloads {
+        display: flex;
+        color: white;
+        flex-direction: column;
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .downloadsHeading {
+        width: fit-content;
+        font-size: 6vh;
+        height: fit-content;
+        font-weight: 600;
+        text-decoration: underline 4px red;
+        text-underline-offset: 8px;
+        -webkit-text-underline-position: under;
+        text-underline-position: under;
+        -webkit-text-decoration: rgb(255, 0, 0) solid 4px underline;
+    }
+    .downloadsText {
+        font-size: 8vh;
+        font-size: 6vw;
+        font-weight: 500;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .downloadsContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+    .headerImageDesktop {
+        display: none;
+        z-index: 1;
+    }
+    .callToAction {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin: inherit;
+        padding: 15px;
+    }
+    .ctaContainer {
+        background-image: linear-gradient(90deg, #ff0000, #ff0048);
+        border-radius: 20px;
+        padding: 20px;
+    }
+    .bwpRight {
+        display: none;
+    }
+    .ctaText {
+        color: white;
+        font-size: 5vh;
+        font-weight: 600;
+    }
+    .ctaButton {
+        color: white;
+        background: none;
+        border: white 2px solid;
+        border-radius: 10px;
+        padding: 10px 10px 10px;
+        margin-top: 10px;
+        font-size: 4vh;
+        font-weight: 600;
+        font-family: 'Poppins';
+        text-shadow: 1px 1px 30px rgb(255, 255, 255, 0.7)
+    }
+    .downloadsContainer {
+        display: none;
+    }
+    .mtsRight {
+        display: none;
+    }
+    .ftpLeft {
+        display: none;
+    }
+}
+
+/* Global styles, regardless of screen size */
+
+html {
+    background-color: black;
+    overflow: scroll;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+.emphasis {
+    font-weight: 600;
+    background-image: linear-gradient(90deg, #ff0000, #ff0048);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.headerButton {
+    font-weight: 600;
+    height: fit-content;
+}
+
+.builtWithPython {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.fa-brands,
+.fa-solid {
+    border: none;
+    text-decoration: none;
+}
